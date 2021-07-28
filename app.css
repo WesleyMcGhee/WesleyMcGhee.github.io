@@ -1,3 +1,96 @@
-h1 {
-  color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bannar {
+  font-weight: 100;
+  font-size: 3rem;
+}
+nav {
+  height: 3vh;
+  width: 100%;
+  border: 1px black solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.nav-item {
+  display: inline;
+  margin-left: 1vh;
+}
+#about {
+  margin-right: 20vw;
+  margin-left: 20vw;
+}
+#about-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+}
+#about-container {
+  display: flex;
+  margin-top: 5vh;
+}
+#picture {
+  height: 30vh;
+  width: 15vw;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 3.5vh;
+}
+#about-text-holder {
+  display: inline-block;
+  width: 40vw;
+  height: 40vh;
+  margin-left: 1.5vh;
+  text-align: justify;
+}
+#technologies {
+  margin-right: 20vw;
+  margin-left: 20vw;
+}
+#tech-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+}
+.tech-pic {
+  height: 18vh;
+  width: 18vh;
+}
+.tech-pic-div {
+  height: 20vh;
+  width: 18vh;
+  justify-self: center;
+}
+#tech-container {
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5vh;
+  row-gap: 5vh;
+}
+.tech-name {
+  text-align: center;
+  margin-top: 1vh;
 }
