@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  background-color: rgb(238, 238, 238);
 }
 header {
   height: 10vh;
@@ -93,4 +94,47 @@ a {
 .tech-name {
   text-align: center;
   margin-top: 1vh;
+}
+#projects {
+  margin-right: 20vw;
+  margin-left: 20vw;
+  margin-top: 7vh;
+}
+.project-showcase {
+  margin-top: 2vh;
+  text-align: center;
+}
+#projects-header {
+  text-align: center;
+}
+#rb-discription {
+  margin-right: 10vw;
+  margin-left: 10vw;
+  margin-top: 10px;
+  text-align: justify;
+  margin-top: 20px;
+}
+.heroku {
+  color: blue;
+}
+#heroku:hover {
+  color: black;
+  text-decoration: underline;
+}
+#rd-pic {
+  aspect-ratio: 16 / 9;
+  height: 30vh;
+  margin-top: 5vh;
+}
+#poke-discription {
+  margin-right: 10vw;
+  margin-left: 10vw;
+  margin-top: 10px;
+  text-align: justify;
+  margin-top: 20px;
+}
+#poke-pic {
+  aspect-ratio: 16 / 9;
+  height: 30vh;
+  margin-top: 5vh;
 }
