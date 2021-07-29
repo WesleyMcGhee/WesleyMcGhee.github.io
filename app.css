@@ -178,7 +178,7 @@ textarea {
   transition: ease-in 0.2s;
 }
 #email-form {
-  margin: 3vh 10vw 10vh 10vw;
+  margin: 3vh 10vw 2vh 10vw;
 }
 #f-name {
   width: 48%;
@@ -195,4 +195,12 @@ textarea {
 }
 #message {
   width: 100%;
+}
+#profile {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.fab {
+  margin-right: 2vh;
 }
