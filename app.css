@@ -60,6 +60,9 @@ a:hover {
   border: 1px solid black;
   display: inline-block;
   margin-left: 3.5vh;
+  background-image: url("pictures/biopics.jpg");
+  background-position: center;
+  background-size: cover;
 }
 #about-text-holder {
   display: inline-block;
@@ -203,4 +206,5 @@ textarea {
 }
 .fab {
   margin-right: 2vh;
+  margin-bottom: 5vh;
 }
