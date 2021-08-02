@@ -221,6 +221,9 @@ textarea {
     height: 13vh;
     width: 13vh;
   }
+  .tech-pic-div {
+    width: 13vh;
+  }
   #rd-pic {
     width: 250px;
     height: 150px;
@@ -230,15 +233,39 @@ textarea {
     height: 150px;
   }
   p {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
-  #about-text {
-    font-size: 0.5rem;
+  #about-container {
+    display: grid;
+  }
+  #about-text-holder {
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  #picture {
+    margin-right: 10vw;
+    margin-left: 10vw;
   }
 }
 @media only screen and (max-width: 560px) {
   #tech-container {
     grid-template-columns: 1fr;
+  }
+  #about {
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  #technologies {
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  #projects {
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  #contact {
+    margin-right: 10vw;
+    margin-left: 10vw;
   }
 }
 @media only screen and (max-width: 375px) {
