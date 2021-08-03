@@ -237,10 +237,11 @@ textarea {
   }
   #about-container {
     display: grid;
-  }
-  #about-text-holder {
     margin-right: 10vw;
     margin-left: 10vw;
+  }
+  #about-text-holder {
+    margin: auto 0;
   }
   #picture {
     margin-right: 10vw;
@@ -267,9 +268,21 @@ textarea {
     margin-right: 10vw;
     margin-left: 10vw;
   }
+  #about-container {
+    margin-right: 20vw;
+    margin-left: 20vw;
+  }
 }
 @media only screen and (max-width: 375px) {
   #bannar {
     font-size: 2rem;
+  }
+  #about-container {
+    margin-top: 2vh;
+  }
+
+  #pic-of-me {
+    height: 100px;
+    width: 70px;
   }
 }
