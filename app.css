@@ -242,6 +242,10 @@ textarea {
   }
   #about-text-holder {
     margin: auto 0;
+    height: inherit;
+  }
+  #about-text {
+    text-align: center;
   }
   #picture {
     margin-right: 10vw;
